@@ -1,0 +1,7 @@
+<div class="mdl-grid items">
+  <div class="mdl-cell mdl-cell--2-col"></div>
+  <div class="mdl-cell mdl-cell--8-col">
+    <item-detail (saved)="saveItem($event)" (cancelled)="resetItem($event)" [item]="selectedItem | async">Select an Item</item-detail>
+  </div>
+  <div class="mdl-cell mdl-cell--2-col"></div>
+</div>
